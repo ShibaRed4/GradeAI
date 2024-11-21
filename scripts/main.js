@@ -27,10 +27,10 @@ function readValues(){
 }
 
 async function load() {
-  const model = await tf.loadLayersModel("model/model.json");
+  const model = await tf.loadLayersModel("Model/model.json");
 
   // Load scaler stats from JSON
-  const response = await fetch("model/scaler_stats.json");
+  const response = await fetch("Model/scaler_stats.json");
   const scalerStats = await response.json();
   const mean = scalerStats.mean;
   const scale = scalerStats.scale;
