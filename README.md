@@ -2,6 +2,17 @@
 
 A basic AI tool for predicting future grades depending on some factors. This was made in response to a challenge presented in my computer science class. Hope that I made the mark.
 
+## How-To-Use
+
+```
+git clone https://github.com/ShibaRed4/GradeAI.git
+cd GradeAI
+
+npm install
+npm run dev
+
+(if you have Bun installed, replace 'npm' with 'bun')
+```
 
 ## PS:
 
