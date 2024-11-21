@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Data Training</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script> <!-- Load TensorFlow.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script> <!-- CSV parsing -->
+</head>
+<body>
+  <h1>Grade predictor using AI!</h1>
+  <input type="number" id="last_gpa" name="Last GPA">
+  <br>
+  <label for="last_gpa">Last GPA?</label>
+  <br>
+  <br>
+  <input type="checkbox" id="sleep_in_class" name="sleep_in_class">
+  <br>
+  <label for="sleep_in_class">Do you sleep in class?</label>
+  <br>
+  <br>
+  <input type="checkbox" id="go_on_phone" name="go_on_phone">
+  <br>
+  <label for="go_on_phone">Do go on your phone a lot?</label>
+  <br>
+  <br>
+  <input type="checkbox" id="study_daily" name="study_daily">
+  <br>
+  <label for="study_daily">Do you study daily?</label>
+  <br>
+  <br>
+  <input type="checkbox" id="does_homework" name="does_homework">
+  <br>
+  <label for="does_homework">Do you do your homework?</label>
+  <br>
+  <br>
+  <button id="predict">Predict</button>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
